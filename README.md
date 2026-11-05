@@ -220,6 +220,7 @@ flowchart LR
 | --- | --- |
 | `README.md` | 你正在读的说明：super-agent 是什么、这个仓库接入了什么、当前状态和用法 |
 | `index.html` | 一页式图文介绍，适合直接给非技术同事看 |
+| `docs/evidence/` | 本次接入前后的对照截图，供 PR 审查和后续对照使用 |
 
 本地预览 `index.html`：
 
