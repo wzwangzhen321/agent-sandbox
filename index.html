@@ -825,6 +825,7 @@
 
   .stat .value {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     gap: 6px;
     margin: 0;
@@ -1259,6 +1260,10 @@
     .ticket-row { gap: 10px; }
     .ticket-row dd { max-width: 60%; }
     blockquote { padding: 16px; }
+  }
+
+  @media (max-width: 360px) {
+    .header-cta { display: none; }
   }
 
   @media (prefers-reduced-motion: reduce) {
